@@ -4,7 +4,7 @@ defmodule Azoth.MixProject do
   def project do
     [
       app: :azoth,
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.17",
       description: "Web Components-first PWA framework for Elixir, powered by WebAssembly.",
       start_permanent: Mix.env() == :prod,
