@@ -8,6 +8,7 @@ defmodule Azoth.MixProject do
       elixir: "~> 1.17",
       description: "Web Components-first PWA framework for Elixir, powered by WebAssembly.",
       start_permanent: Mix.env() == :prod,
+      package: package(),
       deps: deps()
     ]
   end
@@ -28,7 +29,7 @@ defmodule Azoth.MixProject do
 
   defp deps do
     [
-
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
 end

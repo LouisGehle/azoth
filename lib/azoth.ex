@@ -1,18 +1,15 @@
+
 defmodule Azoth do
   @moduledoc """
-  Documentation for `Azoth`.
+  Azoth is a Web Components-first PWA framework for Elixir,
+  powered by WebAssembly and built for offline-first applications.
+
+  ## Features
+  - Web Components as first-class citizens
+  - Offline-first via WebAssembly (AtomVM)
+  - Phoenix Channels for online sync
+  - PWA-ready out of the box
+
+  > This framework is currently in early development.
   """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Azoth.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
 end
