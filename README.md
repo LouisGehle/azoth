@@ -21,30 +21,3 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at <https://hexdocs.pm/azoth>.
 
-## Architecture
-
-```
-┌─────────────────────────────────┐
-│  Azoth Framework                │
-│                                 │
-│  ┌─────────────────────────┐    │
-│  │  Lit Web Components     │    │
-│  │  (TypeScript, ~5KB)     │    │
-│  │  Reaktive UI-Schicht    │    │
-│  └──────────┬──────────────┘    │
-│             │                   │
-│  ┌──────────▼──────────────┐    │
-│  │  Elixir/WASM            │    │
-│  │  (AtomVM/Orb)           │    │
-│  │  Business Logik         │    │
-│  └──────────┬──────────────┘    │
-│             │                   │
-│  ┌──────────▼──────────────┐    │
-│  │  Service Worker         │    │
-│  │  IndexedDB              │    │
-│  └─────────────────────────┘    │
-└──────────────┬──────────────────┘
-               │ Phoenix Channels
-               ▼
-          Phoenix Server
-```
