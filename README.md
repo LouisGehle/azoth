@@ -1,6 +1,8 @@
 # Azoth
 
-**TODO: Add description**
+Web Components-first PWA framework for Elixir, powered by WebAssembly. 
+
+> ⚠️ **Warning:** This project is in very early development. Not ready for production use.
 
 ## Installation
 
