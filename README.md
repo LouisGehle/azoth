@@ -12,7 +12,7 @@ by adding `azoth` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:azoth, "~> 0.1.0"}
+    {:azoth, "~> 0.1.2"}
   ]
 end
 ```
