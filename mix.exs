@@ -18,6 +18,14 @@ defmodule Azoth.MixProject do
     ]
   end
 
+  defp package do
+    [
+      licenses: ["Apache-2.0"],
+      links: %{"GitHub" => "https://github.com/LouisGehle/azoth"},
+      files: ["mix.exs", "README.md"]
+    ]
+  end
+
   defp deps do
     [
 
