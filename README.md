@@ -21,6 +21,7 @@ be found at <https://hexdocs.pm/azoth>.
 
 ## Architecture
 
+```
 ┌─────────────────────────────────┐
 │  Azoth Framework                │
 │                                 │
@@ -44,3 +45,4 @@ be found at <https://hexdocs.pm/azoth>.
                │ Phoenix Channels
                ▼
           Phoenix Server
+```
